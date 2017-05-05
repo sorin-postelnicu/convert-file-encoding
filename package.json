@@ -1,0 +1,29 @@
+{
+  "name": "convert-file-encoding",
+  "version": "0.9.0",
+  "description": "Converts a text file from an input-encoding (for example latin-1) to an output-encoding (for example utf-8)",
+  "repository": "https://github.com/sorin-postelnicu/convert-file-encoding.git",
+  "author": "Sorin Postelnicu <opensource@sorin.postelnicu.net>",
+  "license": "ISC",
+  "main": "bin/convert-file-encoding.js",
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "encoding",
+	"charset",
+	"file encoding",
+    "command line",
+    "convert",
+	"encoding-convertor",
+    "charset-conversion"
+  ],
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4",
+    "command-line-args": "^4.0",
+    "command-line-usage": "^4.0"
+  }
+}
