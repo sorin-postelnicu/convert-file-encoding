@@ -32,8 +32,8 @@ if (!options.inputFilename || !options.outputFilename) {
 } else if (options.inputFilename === options.outputFilename) {
 	console.error("The output file cannot be the same as the input file!")
 } else {
-	convertFileEncoding(options.inputFilename, options.inputEncoding,
-						options.outputFilename, options.outputEncoding)
+	convertFileEncoding(options.inputFilename, options.fromEncoding,
+						options.outputFilename, options.toEncoding)
 }
 
 function showUsage() {
